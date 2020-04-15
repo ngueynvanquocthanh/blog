@@ -23,3 +23,13 @@ Route::get('admin/register', function (){
 Route::get('admin/login', function (){
 	return view('admin.login');
 });
+Route::get('/categories/add', function (){
+	return view('admin.categories.create');
+});
+Route::get('/categories/all', function (){
+	return view('admin.categories.show');
+});
+Route::get('/categories/edit', function (){
+	return view('admin.categories.edit');
+});
+

@@ -198,7 +198,7 @@
         <!-- user login dropdown start-->
         <li class="dropdown">
             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                <img alt="" src="images/2.png">
+                <img alt="" src="{{asset('frontend/admin/images/2.png')}}">
                 <span class="username">John Doe</span>
                 <b class="caret"></b>
             </a>

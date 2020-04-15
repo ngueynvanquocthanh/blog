@@ -18,12 +18,12 @@
                 <li class="sub-menu">
                     <a href="javascript:;">
                         <i class="fa fa-book"></i>
-                        <span>UI Elements</span>
+                        <span>Categories</span>
                     </a>
                     <ul class="sub">
-                        <li><a href="typography.html">Typography</a></li>
-                        <li><a href="glyphicon.html">glyphicon</a></li>
-                        <li><a href="grids.html">Grids</a></li>
+                        <li><a href="{{url('categories/all')}}">List Category</a></li>
+                        <li><a href="{{url('categories/add')}}">Add Category</a></li>
+                        <li><a href="grids.html">Edit Category</a></li>
                     </ul>
                 </li>
                 
@@ -39,7 +39,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="login.html">
+                    <a href="{{{url('admin/login')}}}">
                         <i class="fa fa-user"></i>
                         <span>Login Page</span>
                     </a>
